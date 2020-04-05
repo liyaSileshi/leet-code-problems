@@ -34,3 +34,4 @@ class Solution:
 if __name__ == '__main__':
     s1 = Solution()
     print(s1.findNumbers([555,901,482,1771]))
+    
