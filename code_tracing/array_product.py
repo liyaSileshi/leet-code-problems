@@ -9,7 +9,14 @@
 # Output: [24,12,8,6]
 
 # variable : value
-
+#  nums    : [1, 2, 3, 4]
+#  left    : [1, 1, 2, 6]
+#  left_product : 6
+#  i = 3
+#  right   : [24, 12, 4, 1]
+#  right_product : 24
+#  i = 0
+# output_arr: [21, 12, 8, 6]
 def product_arr(nums):
     output_arr = []
     #left and right array that holds left product and right product
@@ -39,11 +46,7 @@ def product_arr(nums):
     return output_arr
 
 
-
-
-
-
-
+    #NAIVE APPROACH
     # output_arr = []
     # pointer = 0
     # while pointer < len(array):
