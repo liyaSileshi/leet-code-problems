@@ -17,6 +17,7 @@
 #  right_product : 24
 #  i = 0
 # output_arr: [21, 12, 8, 6]
+
 def product_arr(nums):
     output_arr = []
     #left and right array that holds left product and right product

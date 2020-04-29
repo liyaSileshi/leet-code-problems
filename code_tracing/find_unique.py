@@ -4,6 +4,12 @@
 # Input: [4,1,2,1,2]
 # Output: 4
 
+# variable : value
+# nums     : [4, 1, 2, 1, 2]
+#hash_num  :  {4: True, 1:False, 2: False}
+# i : 2
+#key : 4
+#value : True
 
 class Solution:
     def singleNumber(self, nums) -> int:
