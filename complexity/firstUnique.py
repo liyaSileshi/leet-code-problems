@@ -4,8 +4,8 @@
 
 
 class Solution:
-    #Time complexity:
-    #Space complexity:
+    #Time complexity: O(n) - making the histogram
+    #Space complexity: O(n) - making the histogram
     def firstUniqChar(self, s: str) -> int:
         #create a histogram
         count_s = {}

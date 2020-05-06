@@ -9,8 +9,8 @@
 # complement is 010. So you need to output 2.
 
 def findComplement(num):
-    #Time complexity:
-    #Space complexity:
+    #Time complexity: O(len(to_base))
+    #Space complexity: O(1)
     #convert digit to binary
     to_base = ''
     while num >= 2:
