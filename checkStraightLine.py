@@ -4,7 +4,12 @@
 
 class Solution:
     def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
-                
+         # a point
+        if len(coordinates) < 2:
+            return False
+        #2 points = straight line
+        if len(coordinates) == 2:
+            return True  
         #calculate slope
         #slope at two points should be the same        
         x0 = coordinates[0][0]
