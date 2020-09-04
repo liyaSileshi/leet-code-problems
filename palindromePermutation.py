@@ -43,4 +43,16 @@ print(palindromePermutation('Tact Coa'))
 print(palindromePermutation('lliyy'))
 
 # METHOD 2: using bitwise operation
-def bitPalindromePermutation(word):
+def bitPalindromePermutation(word): 
+  '''
+    I need HELP
+  '''
+  #create a histogram
+  hist_word = {}
+  for ch in word:
+    #if it's a num or alpha
+    if ch.isalnum():
+      if ch.lower() in hist_word:
+        hist_word[ch.lower()] += 1
+      else:
+        hist_word[ch.lower()] = 1
