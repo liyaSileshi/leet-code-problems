@@ -1,3 +1,5 @@
+#write an algorithm such that if an elt in an MxN matrix is 0, its entire row and column are set to 0
+
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
         """
