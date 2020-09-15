@@ -12,7 +12,7 @@ input: arr = [-8,0,2,5]
 output: 2 # since arr[2] == 2
 
 input: arr = [-1,0,3,6]
-output: -1 # since no index in arr satisfies arr[i] == i.
+output: -1 # since no index in arr satisfies arr[i] == i.f
 '''
 def index_equals_value_search(arr):
   
