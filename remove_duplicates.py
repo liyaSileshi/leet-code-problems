@@ -29,4 +29,3 @@ class Solution:
             #increment i
             i += 1
     return ''.join(stack)
-  
